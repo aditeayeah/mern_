@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .mainDiv {
+            background-color: rgb(214, 128, 15);
+            height: 600px;
+            width: 500px;
+            justify-content: center;
+            align-items: center;
+            display: grid;
+            border: 1px solid black;
+            border-radius: 5%;
+        }
+        .screen{
+            background-color:rgb(233, 209, 178);
+            justify-content: end;
+            display:flex;
+            height: 100px;
+            width: 450px;
+            font-size: 80px;
+            border: 3px solid black;
+            border-radius: 5mm;
+            align-items: center;
+        }
+        .op{
+            background-color: beige;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            height: 450px;
+            width: 450px;
+            border: 2px solid black;
+            border-radius: 5%;
+            padding: 5px;
+        }
+        .but{
+          font-family: Arial, Helvetica, sans-serif;
+          margin: 5px 5px;
+          font-size: 50px;
+          border-radius: 10%;
+          background-color: burlywood;
+        }
+        .but:hover{
+          background-color: rgb(214, 163, 95)
+        }
+        
+   
+    </style>
+  </head>
+  <body>
+    <mainDiv class="mainDiv">
+      <screen class="screen">0</screen>
+      <op class="op">
+        <input class="but" type="button" value="7" >
+        <input class="but" type="button" value="8">
+        <input class="but" type="button" value="9">
+        <input class="but" type="button" value="/">
+        <input class="but" type="button" value="4">
+        <input class="but" type="button" value="5">
+        <input class="but" type="button" value="6">
+        <input class="but" type="button" value="*">
+        <input class="but" type="button" value="1">
+        <input class="but" type="button" value="2">
+        <input class="but" type="button" value="3">
+        <input class="but" type="button" value="-">
+        <input class="but" type="button" value="0">
+        <input class="but" type="button" value=".">
+        <input class="but" type="button" value="+">
+        <input class="but" type="button" value="=">
+
+      </op>
+    </mainDiv>
+  </body>
+</html>
